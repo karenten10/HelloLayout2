@@ -19,7 +19,7 @@ namespace HelloLayout2
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("/MDPage/NaviPage/MainPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -28,6 +28,8 @@ namespace HelloLayout2
 
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            containerRegistry.RegisterForNavigation<MDPage, MDPageViewModel>();
+            containerRegistry.RegisterForNavigation<NaviPage, NaviPageViewModel>();
         }
     }
 }
