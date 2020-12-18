@@ -18,9 +18,21 @@ namespace HelloLayout2.ViewModels
 
         private readonly INavigationService navigationService;
 
+        public string Title { get; set; } = "首頁";
+
+        public string SubTitle { get; set; } = "職業使然";
+        public string Content { get; set; } = "小明每天都在滑Candy Crush，有一天在廁所蹲馬桶的時候，看著地上的馬賽克地磚，無意間開始構思怎麼滑Candy Crush";
+
+        public DelegateCommand GoNextCommand { get; set; }
+
         public MainPageViewModel(INavigationService navigationService)
         {
             this.navigationService = navigationService;
+
+            GoNextCommand = new DelegateCommand(() =>
+            {
+                navigationService.NavigateAsync("/MDPage/NaviPage/Content2Page");
+            });
 
         }
 

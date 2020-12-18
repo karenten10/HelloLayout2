@@ -4,8 +4,12 @@
              x:Class="HelloLayout2.Views.MainPage"
              Title="{Binding Title}">
 
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="Welcome to Xamarin Forms and Prism!" />
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start" Margin="10">
+        <Label Text="{Binding SubTitle}" FontSize="26" HorizontalOptions="Center" />
+        <Label Text="{Binding Content}" FontSize="20"/>
+
+        <Button Text="下一則"
+                Command="{Binding GoNextCommand}"></Button>
     </StackLayout>
 
 </ContentPage>
