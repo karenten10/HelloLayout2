@@ -6,11 +6,33 @@ using System.Linq;
 
 namespace HelloLayout2.ViewModels
 {
-    public class MDPageViewModel : BindableBase
+    using System.ComponentModel;
+    using Prism.Events;
+    using Prism.Navigation;
+    using Prism.Services;
+    public class MDPageViewModel : INotifyPropertyChanged, INavigationAware
     {
-        public MDPageViewModel()
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private readonly INavigationService navigationService;
+
+        public MDPageViewModel(INavigationService navigationService)
         {
+            this.navigationService = navigationService;
 
         }
+
+        public void OnNavigatedFrom(INavigationParameters parameters)
+        {
+        }
+
+        public void OnNavigatedTo(INavigationParameters parameters)
+        {
+        }
+
+        public void OnNavigatingTo(INavigationParameters parameters)
+        {
+        }
+
     }
 }
