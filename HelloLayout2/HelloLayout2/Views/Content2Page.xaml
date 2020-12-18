@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="HelloLayout2.Views.Content2Page">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start" Margin="10">
+        <Label Text="{Binding SubTitle}" FontSize="26" HorizontalOptions="Center" />
+        <Label Text="{Binding Content}" FontSize="20"/>
+
+        <Button Text="回首頁"
+                Command="{Binding GoNextCommand}"></Button>
+    </StackLayout>
+
+</ContentPage>

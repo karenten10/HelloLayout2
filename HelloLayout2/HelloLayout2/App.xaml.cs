@@ -30,6 +30,7 @@ namespace HelloLayout2
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<MDPage, MDPageViewModel>();
             containerRegistry.RegisterForNavigation<NaviPage, NaviPageViewModel>();
+            containerRegistry.RegisterForNavigation<Content2Page, Content2PageViewModel>();
         }
     }
 }
