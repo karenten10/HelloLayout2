@@ -4,12 +4,20 @@
              x:Class="HelloLayout2.Views.MainPage"
              Title="{Binding Title}">
 
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start" Margin="10">
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start" Margin="50,20,50,50" Spacing="0">
         <Label Text="{Binding SubTitle}" FontSize="26" HorizontalOptions="Center" />
         <Label Text="{Binding Content}" FontSize="20"/>
 
         <Button Text="下一則"
                 Command="{Binding GoNextCommand}"></Button>
+
+        <BoxView Color="Red"></BoxView>
+        <BoxView Color="Orange"></BoxView>
+        <BoxView Color="Yellow"></BoxView>
+        <BoxView Color="Green"></BoxView>
+        <BoxView Color="Blue"></BoxView>
+        <BoxView Color="Indigo"></BoxView>
+        <BoxView Color="Purple"></BoxView>
     </StackLayout>
 
 </ContentPage>
