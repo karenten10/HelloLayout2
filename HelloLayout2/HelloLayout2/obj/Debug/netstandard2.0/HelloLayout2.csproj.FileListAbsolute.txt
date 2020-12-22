@@ -13,3 +13,5 @@ D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2\obj\Debug\netstandard
 D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2\obj\Debug\netstandard2.0\Views\MDPage.xaml.g.cs
 D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2\obj\Debug\netstandard2.0\Views\NaviPage.xaml.g.cs
 D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2\obj\Debug\netstandard2.0\Views\Content2Page.xaml.g.cs
+D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2\obj\Debug\netstandard2.0\Views\TestPage.xaml.g.cs
+D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2\obj\Debug\netstandard2.0\Views\TestScrollPage.xaml.g.cs

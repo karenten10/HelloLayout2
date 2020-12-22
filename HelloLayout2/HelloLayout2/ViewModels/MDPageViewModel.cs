@@ -16,9 +16,23 @@ namespace HelloLayout2.ViewModels
 
         private readonly INavigationService navigationService;
 
+        public DelegateCommand ToMainCommand { get; set; }
+
+        public DelegateCommand ToScrollCommand { get; set; }
+
         public MDPageViewModel(INavigationService navigationService)
         {
             this.navigationService = navigationService;
+
+            ToMainCommand = new DelegateCommand(() =>
+            {
+                navigationService.NavigateAsync("/MDPage/NaviPage/MainPage");
+            });
+
+            ToScrollCommand = new DelegateCommand(()=>
+            {
+                navigationService.NavigateAsync("/MDPage/NaviPage/TestScrollPage");
+            });
 
         }
 

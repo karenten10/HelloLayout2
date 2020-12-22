@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="HelloLayout2.Views.TestScrollPage">
+
+    <ScrollView VerticalOptions="FillAndExpand">
+        <StackLayout>
+            <BoxView Color="Red"></BoxView>
+            <BoxView Color="Orange"></BoxView>
+            <BoxView Color="Yellow"></BoxView>
+            <BoxView Color="Green"></BoxView>
+            <BoxView Color="Blue"></BoxView>
+            <BoxView Color="Indigo"></BoxView>
+            <BoxView Color="Purple"></BoxView>
+            <BoxView Color="Red"></BoxView>
+            <BoxView Color="Orange"></BoxView>
+            <BoxView Color="Yellow"></BoxView>
+            <BoxView Color="Green"></BoxView>
+            <BoxView Color="Blue"></BoxView>
+            <BoxView Color="Indigo"></BoxView>
+            <BoxView Color="Purple"></BoxView>
+            <BoxView Color="Red"></BoxView>
+            <BoxView Color="Orange"></BoxView>
+            <BoxView Color="Yellow"></BoxView>
+            <BoxView Color="Green"></BoxView>
+            <BoxView Color="Blue"></BoxView>
+            <BoxView Color="Indigo"></BoxView>
+            <BoxView Color="Purple"></BoxView>
+            <BoxView Color="Red"></BoxView>
+            <BoxView Color="Orange"></BoxView>
+            <BoxView Color="Yellow"></BoxView>
+            <BoxView Color="Green"></BoxView>
+            <BoxView Color="Blue"></BoxView>
+            <BoxView Color="Indigo"></BoxView>
+            <BoxView Color="Purple"></BoxView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

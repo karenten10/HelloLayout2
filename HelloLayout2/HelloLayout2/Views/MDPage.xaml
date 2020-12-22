@@ -8,8 +8,8 @@
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
             <StackLayout Padding="20">
-                <!-- TODO: // Update the Layout and add some real menu items  -->
-                <Button Text="ViewA" Command="{Binding NavigateCommand}" CommandParameter="ViewA" />
+                <Button Text="到首頁" Command="{Binding ToMainCommand}" CommandParameter="ViewA" />
+                <Button Text="到scroll測試頁" Command="{Binding ToScrollCommand}" CommandParameter="ViewA" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

@@ -20,6 +20,8 @@ namespace HelloLayout2
             InitializeComponent();
 
             await NavigationService.NavigateAsync("/MDPage/NaviPage/MainPage");
+            // await NavigationService.NavigateAsync("/MDPage/NaviPage/TestPage");
+            // await NavigationService.NavigateAsync("/MDPage/NaviPage/TestScrollPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -31,6 +33,8 @@ namespace HelloLayout2
             containerRegistry.RegisterForNavigation<MDPage, MDPageViewModel>();
             containerRegistry.RegisterForNavigation<NaviPage, NaviPageViewModel>();
             containerRegistry.RegisterForNavigation<Content2Page, Content2PageViewModel>();
+            containerRegistry.RegisterForNavigation<TestPage, TestPageViewModel>();
+            containerRegistry.RegisterForNavigation<TestScrollPage, TestScrollPageViewModel>();
         }
     }
 }
