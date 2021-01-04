@@ -14,5 +14,5 @@
                 <TapGestureRecognizer Command="{Binding TakeCommand}" />
             </Image.GestureRecognizers>
         </Image>
-    </StackLayout>  
+    </StackLayout>
 </ContentPage>
