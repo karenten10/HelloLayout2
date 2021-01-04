@@ -7,7 +7,7 @@
     <StackLayout>
         <Label Text="照相測試頁"></Label>
 
-        <Button Text="按一下照相" Command="{Binding TakeCommand}" CommandParameter="ViewA" />
+        <Button Text="請按此拍照" Command="{Binding TakeCommand}" CommandParameter="ViewA" />
         <Image
             Source="{Binding MyImageSource}" Aspect="AspectFit">
             <Image.GestureRecognizers>

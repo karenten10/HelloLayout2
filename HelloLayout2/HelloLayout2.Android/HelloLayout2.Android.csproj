@@ -118,7 +118,9 @@
       <Name>HelloLayout2</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\DefaultImage.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\xml\file_paths.xml">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>

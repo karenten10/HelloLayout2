@@ -610,3 +610,4 @@ D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2.Android\obj\Debug\100
 D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2.Android\obj\Debug\100\androidx\proguard\95535021-9501-4c27-ae4a-3e253c88d492.txt
 D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2.Android\obj\Debug\100\androidx\proguard\cf88b67f-e063-4e50-bdca-7c8b25b4410e.txt
 D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2.Android\obj\Debug\100\androidx\proguard\f1b97035-a019-41f5-872c-21702a9418d1.cfg
+D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2.Android\obj\Debug\100\res\drawable\defaultimage.jpg
