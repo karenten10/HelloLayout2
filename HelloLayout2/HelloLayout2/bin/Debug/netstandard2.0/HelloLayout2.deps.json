@@ -11,6 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Prism.Unity.Forms": "8.0.0.1909",
+          "PropertyChanged.Fody": "3.3.1",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials.Interfaces": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1364"
@@ -19,6 +20,7 @@
           "HelloLayout2.dll": {}
         }
       },
+      "Fody/6.3.0": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
@@ -54,6 +56,17 @@
           "lib/netstandard2.0/Prism.Unity.Forms.dll": {
             "assemblyVersion": "8.0.0.1909",
             "fileVersion": "8.0.0.1909"
+          }
+        }
+      },
+      "PropertyChanged.Fody/3.3.1": {
+        "dependencies": {
+          "Fody": "6.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PropertyChanged.dll": {
+            "assemblyVersion": "3.3.1.0",
+            "fileVersion": "3.3.1.0"
           }
         }
       },
@@ -164,6 +177,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Fody/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kBGlW/vBUvBSyCvFI3YICNl77gjUr0KMROlBTeBPN/+J3JMU57w1dpXPwjmU4ahdBTYLomzgxKLaJ3jVNuXuQg==",
+      "path": "fody/6.3.0",
+      "hashPath": "fody.6.3.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -198,6 +218,13 @@
       "sha512": "sha512-a5Ls9QaF4gx9bYjvQlZLXS5VgQURXJF+/kufDyKS/cXKsia9Dc3tkkB8hIPMDYzGOfdGUOYae7yH1irnkMUkVw==",
       "path": "prism.unity.forms/8.0.0.1909",
       "hashPath": "prism.unity.forms.8.0.0.1909.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/3.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/K/X8wn2IZV7Zezb+WvieOalWopFJKEcB7BrPoDFCj74VexupWdtvqriCoifSyrX0E+XhTzk0cVQd26hQ7TODg==",
+      "path": "propertychanged.fody/3.3.1",
+      "hashPath": "propertychanged.fody.3.3.1.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
