@@ -27,6 +27,7 @@ com.google.android.material.tabs.TabLayout;D:\practice\xamarin\HelloLayout2\Hell
 com.google.android.material.tabs.TabLayout;D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2.Android\obj\Debug\100\lp\43\jl\res\layout\rootlayout.xml
 com.google.android.material.tabs.TabLayout;D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2.Android\obj\Debug\100\lp\43\jl\res\layout\tabbar.xml
 com.google.android.material.tabs.TabLayout;obj\Debug\100\res\layout\tabbar.xml
+crc64720bb2db43a66fe9.FormsViewPager;D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2.Android\obj\Debug\100\lp\43\jl\res\layout\rootlayout.xml
 declare-styleable;D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2.Android\obj\Debug\100\lp\43\jl\res\values\attrs.xml
 external-cache-path;D:\practice\xamarin\HelloLayout2\HelloLayout2\HelloLayout2.Android\obj\Debug\100\lp\42\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-files-path;obj\Debug\100\res\xml\file_paths.xml
