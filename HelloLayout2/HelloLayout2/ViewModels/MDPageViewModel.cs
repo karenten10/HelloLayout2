@@ -20,6 +20,8 @@ namespace HelloLayout2.ViewModels
 
         public DelegateCommand ToScrollCommand { get; set; }
 
+        public DelegateCommand ToPhotoCommand { get; set; }
+
         public MDPageViewModel(INavigationService navigationService)
         {
             this.navigationService = navigationService;
@@ -32,6 +34,11 @@ namespace HelloLayout2.ViewModels
             ToScrollCommand = new DelegateCommand(()=>
             {
                 navigationService.NavigateAsync("/MDPage/NaviPage/TestScrollPage");
+            });
+
+            ToPhotoCommand = new DelegateCommand(() =>
+            {
+                navigationService.NavigateAsync("/MDPage/NaviPage/PhotoPage");
             });
 
         }

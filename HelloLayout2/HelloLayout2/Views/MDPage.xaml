@@ -10,6 +10,7 @@
             <StackLayout Padding="20">
                 <Button Text="到首頁" Command="{Binding ToMainCommand}" CommandParameter="ViewA" />
                 <Button Text="到scroll測試頁" Command="{Binding ToScrollCommand}" CommandParameter="ViewA" />
+                <Button Text="到照相測試頁" Command="{Binding ToPhotoCommand}" CommandParameter="ViewA" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
