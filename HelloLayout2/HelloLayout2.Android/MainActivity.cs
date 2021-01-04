@@ -16,6 +16,8 @@ namespace HelloLayout2.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+            // 這行會出錯,找不到CurrentActivity
+            // Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(this, savedInstanceState);
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App(new AndroidInitializer()));

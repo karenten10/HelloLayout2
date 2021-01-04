@@ -119,6 +119,10 @@
               "target": "Package",
               "version": "[8.0.0.1909, )"
             },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Essentials.Interfaces": {
               "target": "Package",
               "version": "[1.5.3.2, )"
