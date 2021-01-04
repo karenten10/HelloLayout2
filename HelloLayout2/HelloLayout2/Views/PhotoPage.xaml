@@ -6,5 +6,7 @@
              x:Class="HelloLayout2.Views.PhotoPage">
     <StackLayout>
         <Label Text="照相測試頁"></Label>
+
+        <Button Text="測試照相" Command="{Binding TakeCommand}" CommandParameter="ViewA" />
     </StackLayout>  
 </ContentPage>
